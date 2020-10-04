@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercise2 {
     public static void main(String[] args) {
         Scanner distances = new Scanner(System.in);
-        System.out.println("Inches :");
+        System.out.print("Inches :");
         double amount = distances.nextDouble();
         double miles = amount / 63360;
         miles = (int) miles;
